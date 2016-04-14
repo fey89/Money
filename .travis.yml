@@ -4,6 +4,3 @@ php:
 - 5.4
 - hhvm
 script: phpunit tests/MoneyTest.php
-
-before_script:
-	- composer install
