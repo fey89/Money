@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Money" tests="44" assertions="70" failures="0" errors="0" time="0.125604">
+    <testsuite name="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" tests="11" assertions="17" failures="0" errors="0" time="0.026381">
+      <testcase name="testExceptionIsRaisedForInvalidConstructorArgument" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="19" assertions="1" time="0.002358"/>
+      <testcase name="testCanBeConstructedFromUppercaseString" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="27" assertions="1" time="0.000975"/>
+      <testcase name="testCanBeConstructedFromLowercaseString" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="39" assertions="1" time="0.000973"/>
+      <testcase name="testCustomCurrencyCanBeRegistered" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="51" assertions="1" time="0.014181"/>
+      <testcase name="testRegisterdCurrenciesCanBeAccessed" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="70" assertions="7" time="0.002165"/>
+      <testcase name="testCanBeCastToString" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="87" assertions="1" time="0.000968"/>
+      <testcase name="testCurrencyCodeCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="96" assertions="1" time="0.001155"/>
+      <testcase name="testDefaultFractionDigitsCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="105" assertions="1" time="0.000916"/>
+      <testcase name="testDisplayNameCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="114" assertions="1" time="0.000886"/>
+      <testcase name="testNumericCodeCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="123" assertions="1" time="0.000872"/>
+      <testcase name="testSubUnitCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/administrateur/Projects/Money/tests/CurrencyTest.php" line="132" assertions="1" time="0.000932"/>
+    </testsuite>
+    <testsuite name="SebastianBergmann\Money\IntlFormatterTest" file="/home/administrateur/Projects/Money/tests/IntlFormatterTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.002235">
+      <testcase name="testMoneyObjectCanBeFormattedAsString" class="SebastianBergmann\Money\IntlFormatterTest" file="/home/administrateur/Projects/Money/tests/IntlFormatterTest.php" line="21" assertions="1" time="0.002235"/>
+    </testsuite>
+    <testsuite name="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" tests="32" assertions="52" failures="0" errors="0" time="0.096988">
+      <testcase name="testExceptionIsRaisedForInvalidConstructorArguments" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="20" assertions="1" time="0.001133"/>
+      <testcase name="testExceptionIsRaisedForInvalidConstructorArguments2" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="31" assertions="1" time="0.001169"/>
+      <testcase name="testExceptionIsRaisedForInvalidConstructorArguments3" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="41" assertions="1" time="0.001223"/>
+      <testcase name="testObjectCanBeConstructedForValidConstructorArguments" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="51" assertions="1" time="0.000978"/>
+      <testcase name="testObjectCanBeConstructedForValidConstructorArguments2" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="65" assertions="1" time="0.001101"/>
+      <testcase name="testObjectCanBeConstructedFromStringValue" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="80" assertions="1" time="0.004503"/>
+      <testcase name="testObjectCanBeConstructedFromStringValue2" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="94" assertions="1" time="0.003487"/>
+      <testcase name="testAmountCanBeRetrieved" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="106" assertions="1" time="0.001048"/>
+      <testcase name="testConvertedAmountCanBeRetrieved" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="117" assertions="1" time="0.001178"/>
+      <testcase name="testCurrencyCanBeRetrieved" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="128" assertions="1" time="0.002052"/>
+      <testcase name="testAnotherMoneyObjectWithSameCurrencyCanBeAdded" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="144" assertions="3" time="0.001786"/>
+      <testcase name="testExceptionIsThrownForOverflowingAddition" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="167" assertions="1" time="0.001752"/>
+      <testcase name="testExceptionIsRaisedForIntegerOverflow" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="183" assertions="1" time="0.001263"/>
+      <testcase name="testExceptionIsRaisedWhenMoneyObjectWithDifferentCurrencyIsAdded" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="199" assertions="1" time="0.001477"/>
+      <testcase name="testAnotherMoneyObjectWithSameCurrencyCanBeSubtracted" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="218" assertions="3" time="0.001705"/>
+      <testcase name="testExceptionIsThrownForOverflowingSubtraction" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="241" assertions="1" time="0.001411"/>
+      <testcase name="testExceptionIsRaisedWhenMoneyObjectWithDifferentCurrencyIsSubtracted" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="258" assertions="1" time="0.001534"/>
+      <testcase name="testCanBeNegated" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="274" assertions="2" time="0.001275"/>
+      <testcase name="testCanBeMultipliedByAFactor" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="293" assertions="2" time="0.002110"/>
+      <testcase name="testExceptionIsRaisedWhenMultipliedUsingInvalidRoundingMode" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="309" assertions="1" time="0.001303"/>
+      <testcase name="testCanBeAllocatedToNumberOfTargets" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="323" assertions="1" time="0.028672"/>
+      <testcase name="testPercentageCanBeExtracted" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="359" assertions="2" time="0.007455"/>
+      <testcase name="testExceptionIsRaisedWhenTryingToAllocateToInvalidNumberOfTargets" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="375" assertions="1" time="0.001648"/>
+      <testcase name="testCanBeAllocatedByRatios" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="391" assertions="1" time="0.007183"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="414" assertions="3" time="0.001961"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency2" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="435" assertions="2" time="0.002393"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency3" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="455" assertions="2" time="0.002081"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency4" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="475" assertions="4" time="0.002379"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency5" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="499" assertions="4" time="0.003221"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency6" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="524" assertions="4" time="0.003033"/>
+      <testcase name="testExceptionIsRaisedWhenComparedToMoneyObjectWithDifferentCurrency" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="545" assertions="1" time="0.002002"/>
+      <testcase name="testCanBeSerializedToJson" class="SebastianBergmann\Money\MoneyTest" file="/home/administrateur/Projects/Money/tests/MoneyTest.php" line="560" assertions="1" time="0.001472"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

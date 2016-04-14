@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1460636895">
+  <project timestamp="1460636895">
+    <package name="SebastianBergmann\Money">
+      <file name="/home/administrateur/Projects/Money/src/Currency.php">
+        <class name="Currency" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="11" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="31" coveredelements="31"/>
+        </class>
+        <line num="1135" type="method" name="__construct" visibility="public" complexity="3" crap="3" count="3"/>
+        <line num="1137" type="stmt" count="3"/>
+        <line num="1138" type="stmt" count="2"/>
+        <line num="1139" type="stmt" count="2"/>
+        <line num="1141" type="stmt" count="3"/>
+        <line num="1142" type="stmt" count="1"/>
+        <line num="1143" type="stmt" count="1"/>
+        <line num="1144" type="stmt" count="1"/>
+        <line num="1147" type="stmt" count="2"/>
+        <line num="1148" type="stmt" count="2"/>
+        <line num="1157" type="method" name="addCurrency" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1159" type="stmt" count="1"/>
+        <line num="1160" type="stmt" count="1"/>
+        <line num="1161" type="stmt" count="1"/>
+        <line num="1162" type="stmt" count="1"/>
+        <line num="1163" type="stmt" count="1"/>
+        <line num="1165" type="stmt" count="1"/>
+        <line num="1170" type="method" name="getCurrencies" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1172" type="stmt" count="1"/>
+        <line num="1180" type="method" name="getCurrencyCode" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1182" type="stmt" count="1"/>
+        <line num="1191" type="method" name="getDefaultFractionDigits" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1193" type="stmt" count="1"/>
+        <line num="1201" type="method" name="getDisplayName" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1203" type="stmt" count="1"/>
+        <line num="1211" type="method" name="getNumericCode" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1213" type="stmt" count="1"/>
+        <line num="1221" type="method" name="getSubUnit" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1223" type="stmt" count="1"/>
+        <line num="1231" type="method" name="__toString" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="1233" type="stmt" count="1"/>
+        <metrics loc="1235" ncloc="1163" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="31" coveredelements="31"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/IntlFormatter.php">
+        <class name="IntlFormatter" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="34" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="48" type="method" name="format" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="1"/>
+        <metrics loc="55" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/Money.php">
+        <class name="Money" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="43" methods="25" coveredmethods="25" conditionals="0" coveredconditionals="0" statements="101" coveredstatements="101" elements="126" coveredelements="126"/>
+        </class>
+        <line num="52" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="4"/>
+        <line num="54" type="stmt" count="4"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="3"/>
+        <line num="59" type="stmt" count="3"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="77" type="method" name="fromString" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="79" type="stmt" count="3"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="2"/>
+        <line num="86" type="stmt" count="2"/>
+        <line num="87" type="stmt" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="89" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="91" type="stmt" count="2"/>
+        <line num="93" type="stmt" count="2"/>
+        <line num="94" type="stmt" count="2"/>
+        <line num="96" type="stmt" count="2"/>
+        <line num="97" type="stmt" count="2"/>
+        <line num="99" type="stmt" count="2"/>
+        <line num="108" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="121" type="method" name="getAmount" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="131" type="method" name="getConvertedAmount" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="133" type="stmt" count="1"/>
+        <line num="142" type="method" name="getCurrency" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="144" type="stmt" count="1"/>
+        <line num="156" type="method" name="add" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="158" type="stmt" count="3"/>
+        <line num="160" type="stmt" count="2"/>
+        <line num="162" type="stmt" count="2"/>
+        <line num="164" type="stmt" count="1"/>
+        <line num="176" type="method" name="subtract" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="178" type="stmt" count="3"/>
+        <line num="180" type="stmt" count="2"/>
+        <line num="182" type="stmt" count="2"/>
+        <line num="184" type="stmt" count="1"/>
+        <line num="193" type="method" name="negate" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="195" type="stmt" count="1"/>
+        <line num="207" type="method" name="multiply" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="209" type="stmt" count="2"/>
+        <line num="210" type="stmt" count="1"/>
+        <line num="212" type="stmt" count="1"/>
+        <line num="215" type="stmt" count="1"/>
+        <line num="216" type="stmt" count="1"/>
+        <line num="217" type="stmt" count="1"/>
+        <line num="218" type="stmt" count="1"/>
+        <line num="219" type="stmt" count="1"/>
+        <line num="230" type="method" name="allocateToTargets" visibility="public" complexity="4" crap="4" count="2"/>
+        <line num="232" type="stmt" count="2"/>
+        <line num="233" type="stmt" count="1"/>
+        <line num="236" type="stmt" count="1"/>
+        <line num="237" type="stmt" count="1"/>
+        <line num="238" type="stmt" count="1"/>
+        <line num="239" type="stmt" count="1"/>
+        <line num="241" type="stmt" count="1"/>
+        <line num="242" type="stmt" count="1"/>
+        <line num="243" type="stmt" count="1"/>
+        <line num="245" type="stmt" count="1"/>
+        <line num="246" type="stmt" count="1"/>
+        <line num="247" type="stmt" count="1"/>
+        <line num="249" type="stmt" count="1"/>
+        <line num="259" type="method" name="allocateByRatios" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="262" type="stmt" count="1"/>
+        <line num="263" type="stmt" count="1"/>
+        <line num="264" type="stmt" count="1"/>
+        <line num="266" type="stmt" count="1"/>
+        <line num="267" type="stmt" count="1"/>
+        <line num="268" type="stmt" count="1"/>
+        <line num="269" type="stmt" count="1"/>
+        <line num="270" type="stmt" count="1"/>
+        <line num="272" type="stmt" count="1"/>
+        <line num="273" type="stmt" count="1"/>
+        <line num="274" type="stmt" count="1"/>
+        <line num="276" type="stmt" count="1"/>
+        <line num="295" type="method" name="extractPercentage" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="297" type="stmt" count="1"/>
+        <line num="298" type="stmt" count="1"/>
+        <line num="299" type="stmt" count="1"/>
+        <line num="300" type="stmt" count="1"/>
+        <line num="301" type="stmt" count="1"/>
+        <line num="304" type="stmt" count="1"/>
+        <line num="305" type="stmt" count="1"/>
+        <line num="306" type="stmt" count="1"/>
+        <line num="320" type="method" name="compareTo" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="322" type="stmt" count="2"/>
+        <line num="324" type="stmt" count="1"/>
+        <line num="325" type="stmt" count="1"/>
+        <line num="328" type="stmt" count="1"/>
+        <line num="338" type="method" name="equals" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="340" type="stmt" count="1"/>
+        <line num="351" type="method" name="greaterThan" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="353" type="stmt" count="1"/>
+        <line num="364" type="method" name="greaterThanOrEqual" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="366" type="stmt" count="1"/>
+        <line num="377" type="method" name="lessThan" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="379" type="stmt" count="1"/>
+        <line num="390" type="method" name="lessThanOrEqual" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="392" type="stmt" count="1"/>
+        <line num="400" type="method" name="assertSameCurrency" visibility="private" complexity="2" crap="2" count="13"/>
+        <line num="402" type="stmt" count="13"/>
+        <line num="403" type="stmt" count="3"/>
+        <line num="405" type="stmt" count="10"/>
+        <line num="414" type="method" name="assertIsInteger" visibility="private" complexity="2" crap="2" count="2"/>
+        <line num="416" type="stmt" count="2"/>
+        <line num="417" type="stmt" count="2"/>
+        <line num="428" type="method" name="assertInsideIntegerBounds" visibility="private" complexity="2" crap="2" count="1"/>
+        <line num="430" type="stmt" count="1"/>
+        <line num="431" type="stmt" count="1"/>
+        <line num="442" type="method" name="castToInt" visibility="private" complexity="1" crap="1" count="2"/>
+        <line num="444" type="stmt" count="2"/>
+        <line num="446" type="stmt" count="2"/>
+        <line num="453" type="method" name="newMoney" visibility="private" complexity="1" crap="1" count="6"/>
+        <line num="455" type="stmt" count="6"/>
+        <line num="463" type="method" name="handleCurrencyArgument" visibility="private" complexity="4" crap="4" count="3"/>
+        <line num="465" type="stmt" count="3"/>
+        <line num="466" type="stmt" count="1"/>
+        <line num="469" type="stmt" count="2"/>
+        <line num="470" type="stmt" count="1"/>
+        <line num="471" type="stmt" count="1"/>
+        <line num="473" type="stmt" count="2"/>
+        <metrics loc="475" ncloc="250" classes="1" methods="25" coveredmethods="25" conditionals="0" coveredconditionals="0" statements="101" coveredstatements="101" elements="126" coveredelements="126"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/AED.php">
+        <class name="AED" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/AFN.php">
+        <class name="AFN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ALL.php">
+        <class name="ALL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/AMD.php">
+        <class name="AMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ANG.php">
+        <class name="ANG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/AOA.php">
+        <class name="AOA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ARS.php">
+        <class name="ARS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/AUD.php">
+        <class name="AUD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/AWG.php">
+        <class name="AWG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/AZN.php">
+        <class name="AZN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BAM.php">
+        <class name="BAM" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BBD.php">
+        <class name="BBD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BDT.php">
+        <class name="BDT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BGN.php">
+        <class name="BGN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BHD.php">
+        <class name="BHD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BIF.php">
+        <class name="BIF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BMD.php">
+        <class name="BMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BND.php">
+        <class name="BND" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BOB.php">
+        <class name="BOB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BOV.php">
+        <class name="BOV" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BRL.php">
+        <class name="BRL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BSD.php">
+        <class name="BSD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BTN.php">
+        <class name="BTN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BWP.php">
+        <class name="BWP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BYR.php">
+        <class name="BYR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/BZD.php">
+        <class name="BZD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CAD.php">
+        <class name="CAD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CDF.php">
+        <class name="CDF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CHE.php">
+        <class name="CHE" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CHF.php">
+        <class name="CHF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CHW.php">
+        <class name="CHW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CLF.php">
+        <class name="CLF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CLP.php">
+        <class name="CLP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CNY.php">
+        <class name="CNY" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/COP.php">
+        <class name="COP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/COU.php">
+        <class name="COU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CRC.php">
+        <class name="CRC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CUC.php">
+        <class name="CUC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CUP.php">
+        <class name="CUP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CVE.php">
+        <class name="CVE" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/CZK.php">
+        <class name="CZK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/DJF.php">
+        <class name="DJF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/DKK.php">
+        <class name="DKK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/DOP.php">
+        <class name="DOP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/DZD.php">
+        <class name="DZD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/EGP.php">
+        <class name="EGP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ERN.php">
+        <class name="ERN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ETB.php">
+        <class name="ETB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/EUR.php">
+        <class name="EUR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/FJD.php">
+        <class name="FJD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/FKP.php">
+        <class name="FKP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GBP.php">
+        <class name="GBP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GEL.php">
+        <class name="GEL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GHS.php">
+        <class name="GHS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GIP.php">
+        <class name="GIP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GMD.php">
+        <class name="GMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GNF.php">
+        <class name="GNF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GTQ.php">
+        <class name="GTQ" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/GYD.php">
+        <class name="GYD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/HKD.php">
+        <class name="HKD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/HNL.php">
+        <class name="HNL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/HRK.php">
+        <class name="HRK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/HTG.php">
+        <class name="HTG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/HUF.php">
+        <class name="HUF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/IDR.php">
+        <class name="IDR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ILS.php">
+        <class name="ILS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/INR.php">
+        <class name="INR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/IQD.php">
+        <class name="IQD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/IRR.php">
+        <class name="IRR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ISK.php">
+        <class name="ISK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/JMD.php">
+        <class name="JMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/JOD.php">
+        <class name="JOD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/JPY.php">
+        <class name="JPY" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KES.php">
+        <class name="KES" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KGS.php">
+        <class name="KGS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KHR.php">
+        <class name="KHR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KMF.php">
+        <class name="KMF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KPW.php">
+        <class name="KPW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KRW.php">
+        <class name="KRW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KWD.php">
+        <class name="KWD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KYD.php">
+        <class name="KYD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/KZT.php">
+        <class name="KZT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LAK.php">
+        <class name="LAK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LBP.php">
+        <class name="LBP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LKR.php">
+        <class name="LKR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LRD.php">
+        <class name="LRD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LSL.php">
+        <class name="LSL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LTL.php">
+        <class name="LTL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LVL.php">
+        <class name="LVL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/LYD.php">
+        <class name="LYD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MAD.php">
+        <class name="MAD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MDL.php">
+        <class name="MDL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MGA.php">
+        <class name="MGA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MKD.php">
+        <class name="MKD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MMK.php">
+        <class name="MMK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MNT.php">
+        <class name="MNT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MOP.php">
+        <class name="MOP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MRO.php">
+        <class name="MRO" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MUR.php">
+        <class name="MUR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MVR.php">
+        <class name="MVR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MWK.php">
+        <class name="MWK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MXN.php">
+        <class name="MXN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MXV.php">
+        <class name="MXV" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MYR.php">
+        <class name="MYR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/MZN.php">
+        <class name="MZN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/NAD.php">
+        <class name="NAD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/NGN.php">
+        <class name="NGN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/NIO.php">
+        <class name="NIO" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/NOK.php">
+        <class name="NOK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/NPR.php">
+        <class name="NPR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/NZD.php">
+        <class name="NZD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/OMR.php">
+        <class name="OMR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/PAB.php">
+        <class name="PAB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/PEN.php">
+        <class name="PEN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/PGK.php">
+        <class name="PGK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/PHP.php">
+        <class name="PHP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/PKR.php">
+        <class name="PKR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/PLN.php">
+        <class name="PLN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/PYG.php">
+        <class name="PYG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/QAR.php">
+        <class name="QAR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/RON.php">
+        <class name="RON" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/RSD.php">
+        <class name="RSD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/RUB.php">
+        <class name="RUB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/RWF.php">
+        <class name="RWF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SAR.php">
+        <class name="SAR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SBD.php">
+        <class name="SBD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SCR.php">
+        <class name="SCR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SDG.php">
+        <class name="SDG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SEK.php">
+        <class name="SEK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SGD.php">
+        <class name="SGD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SHP.php">
+        <class name="SHP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SLL.php">
+        <class name="SLL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SOS.php">
+        <class name="SOS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SRD.php">
+        <class name="SRD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SSP.php">
+        <class name="SSP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/STD.php">
+        <class name="STD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SVC.php">
+        <class name="SVC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SYP.php">
+        <class name="SYP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/SZL.php">
+        <class name="SZL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/THB.php">
+        <class name="THB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/TJS.php">
+        <class name="TJS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/TMT.php">
+        <class name="TMT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/TND.php">
+        <class name="TND" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/TOP.php">
+        <class name="TOP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/TTD.php">
+        <class name="TTD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/TWD.php">
+        <class name="TWD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/TZS.php">
+        <class name="TZS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/UAH.php">
+        <class name="UAH" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/UGX.php">
+        <class name="UGX" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/USD.php">
+        <class name="USD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/USN.php">
+        <class name="USN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/USS.php">
+        <class name="USS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/UYI.php">
+        <class name="UYI" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/UYU.php">
+        <class name="UYU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/UZS.php">
+        <class name="UZS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/VEF.php">
+        <class name="VEF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/VND.php">
+        <class name="VND" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/VUV.php">
+        <class name="VUV" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/WST.php">
+        <class name="WST" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XAF.php">
+        <class name="XAF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XAG.php">
+        <class name="XAG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XAU.php">
+        <class name="XAU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XBA.php">
+        <class name="XBA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XBB.php">
+        <class name="XBB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XBC.php">
+        <class name="XBC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XBD.php">
+        <class name="XBD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XCD.php">
+        <class name="XCD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XDR.php">
+        <class name="XDR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XFU.php">
+        <class name="XFU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XOF.php">
+        <class name="XOF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XPD.php">
+        <class name="XPD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XPF.php">
+        <class name="XPF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XPT.php">
+        <class name="XPT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XSU.php">
+        <class name="XSU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XTS.php">
+        <class name="XTS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XUA.php">
+        <class name="XUA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/XXX.php">
+        <class name="XXX" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/YER.php">
+        <class name="YER" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ZAR.php">
+        <class name="ZAR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ZMW.php">
+        <class name="ZMW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/currency/ZWL.php">
+        <class name="ZWL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="27" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/exceptions/CurrencyMismatchException.php">
+        <class name="CurrencyMismatchException" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="22" ncloc="7" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/exceptions/InvalidArgumentException.php">
+        <class name="InvalidArgumentException" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="25" ncloc="7" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/administrateur/Projects/Money/src/exceptions/OverflowException.php">
+        <class name="OverflowException" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="24" ncloc="7" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/home/administrateur/Projects/Money/src/interfaces/Exception.php">
+      <metrics loc="24" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/administrateur/Projects/Money/src/interfaces/Formatter.php">
+      <metrics loc="31" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="189" loc="6778" ncloc="3466" classes="187" methods="36" coveredmethods="36" conditionals="0" coveredconditionals="0" statements="131" coveredstatements="131" elements="167" coveredelements="167"/>
+  </project>
+</coverage>

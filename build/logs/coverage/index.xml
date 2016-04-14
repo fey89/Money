@@ -1,0 +1,3462 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="/home/administrateur/Projects/Money/src">
+    <tests>
+      <test name="SebastianBergmann\Money\CurrencyTest::testExceptionIsRaisedForInvalidConstructorArgument" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromUppercaseString" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testCanBeConstructedFromLowercaseString" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testCustomCurrencyCanBeRegistered" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testRegisterdCurrenciesCanBeAccessed" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testCanBeCastToString" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testCurrencyCodeCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testDefaultFractionDigitsCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testDisplayNameCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testNumericCodeCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\CurrencyTest::testSubUnitCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\IntlFormatterTest::testMoneyObjectCanBeFormattedAsString" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedForInvalidConstructorArguments" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedForInvalidConstructorArguments2" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedForInvalidConstructorArguments3" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testObjectCanBeConstructedForValidConstructorArguments" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testObjectCanBeConstructedForValidConstructorArguments2" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testObjectCanBeConstructedFromStringValue" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testObjectCanBeConstructedFromStringValue2" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testAmountCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testConvertedAmountCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCurrencyCanBeRetrieved" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testAnotherMoneyObjectWithSameCurrencyCanBeAdded" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsThrownForOverflowingAddition" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedForIntegerOverflow" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedWhenMoneyObjectWithDifferentCurrencyIsAdded" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testAnotherMoneyObjectWithSameCurrencyCanBeSubtracted" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsThrownForOverflowingSubtraction" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedWhenMoneyObjectWithDifferentCurrencyIsSubtracted" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeNegated" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeMultipliedByAFactor" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedWhenMultipliedUsingInvalidRoundingMode" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeAllocatedToNumberOfTargets" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testPercentageCanBeExtracted" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedWhenTryingToAllocateToInvalidNumberOfTargets" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeAllocatedByRatios" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeComparedToAnotherMoneyObjectWithSameCurrency" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeComparedToAnotherMoneyObjectWithSameCurrency2" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeComparedToAnotherMoneyObjectWithSameCurrency3" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeComparedToAnotherMoneyObjectWithSameCurrency4" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeComparedToAnotherMoneyObjectWithSameCurrency5" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeComparedToAnotherMoneyObjectWithSameCurrency6" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testExceptionIsRaisedWhenComparedToMoneyObjectWithDifferentCurrency" size="unknown" result="0" status="PASSED"/>
+      <test name="SebastianBergmann\Money\MoneyTest::testCanBeSerializedToJson" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/home/administrateur/Projects/Money/src">
+      <totals>
+        <lines total="6778" comments="3312" code="3466" executable="131" executed="131" percent="100.00%"/>
+        <methods count="36" tested="36" percent="100.00%"/>
+        <functions count="0" tested="0" percent=""/>
+        <classes count="187" tested="187" percent="100.00%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <file name="Currency.php" href="Currency.php.xml">
+        <totals>
+          <lines total="1235" comments="72" code="1163" executable="22" executed="22" percent="100.00%"/>
+          <methods count="9" tested="9" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="IntlFormatter.php" href="IntlFormatter.php.xml">
+        <totals>
+          <lines total="55" comments="29" code="26" executable="8" executed="8" percent="100.00%"/>
+          <methods count="2" tested="2" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="Money.php" href="Money.php.xml">
+        <totals>
+          <lines total="475" comments="225" code="250" executable="101" executed="101" percent="100.00%"/>
+          <methods count="25" tested="25" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <directory name="currency">
+        <totals>
+          <lines total="4887" comments="2896" code="1991" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="181" tested="181" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="AED.php" href="currency/AED.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="AFN.php" href="currency/AFN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ALL.php" href="currency/ALL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="AMD.php" href="currency/AMD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ANG.php" href="currency/ANG.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="AOA.php" href="currency/AOA.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ARS.php" href="currency/ARS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="AUD.php" href="currency/AUD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="AWG.php" href="currency/AWG.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="AZN.php" href="currency/AZN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BAM.php" href="currency/BAM.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BBD.php" href="currency/BBD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BDT.php" href="currency/BDT.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BGN.php" href="currency/BGN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BHD.php" href="currency/BHD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BIF.php" href="currency/BIF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BMD.php" href="currency/BMD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BND.php" href="currency/BND.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BOB.php" href="currency/BOB.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BOV.php" href="currency/BOV.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BRL.php" href="currency/BRL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BSD.php" href="currency/BSD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BTN.php" href="currency/BTN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BWP.php" href="currency/BWP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BYR.php" href="currency/BYR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="BZD.php" href="currency/BZD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CAD.php" href="currency/CAD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CDF.php" href="currency/CDF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CHE.php" href="currency/CHE.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CHF.php" href="currency/CHF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CHW.php" href="currency/CHW.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CLF.php" href="currency/CLF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CLP.php" href="currency/CLP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CNY.php" href="currency/CNY.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="COP.php" href="currency/COP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="COU.php" href="currency/COU.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CRC.php" href="currency/CRC.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CUC.php" href="currency/CUC.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CUP.php" href="currency/CUP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CVE.php" href="currency/CVE.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="CZK.php" href="currency/CZK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="DJF.php" href="currency/DJF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="DKK.php" href="currency/DKK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="DOP.php" href="currency/DOP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="DZD.php" href="currency/DZD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="EGP.php" href="currency/EGP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ERN.php" href="currency/ERN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ETB.php" href="currency/ETB.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="EUR.php" href="currency/EUR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="FJD.php" href="currency/FJD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="FKP.php" href="currency/FKP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GBP.php" href="currency/GBP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GEL.php" href="currency/GEL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GHS.php" href="currency/GHS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GIP.php" href="currency/GIP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GMD.php" href="currency/GMD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GNF.php" href="currency/GNF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GTQ.php" href="currency/GTQ.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="GYD.php" href="currency/GYD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="HKD.php" href="currency/HKD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="HNL.php" href="currency/HNL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="HRK.php" href="currency/HRK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="HTG.php" href="currency/HTG.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="HUF.php" href="currency/HUF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="IDR.php" href="currency/IDR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ILS.php" href="currency/ILS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="INR.php" href="currency/INR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="IQD.php" href="currency/IQD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="IRR.php" href="currency/IRR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ISK.php" href="currency/ISK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="JMD.php" href="currency/JMD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="JOD.php" href="currency/JOD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="JPY.php" href="currency/JPY.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KES.php" href="currency/KES.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KGS.php" href="currency/KGS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KHR.php" href="currency/KHR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KMF.php" href="currency/KMF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KPW.php" href="currency/KPW.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KRW.php" href="currency/KRW.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KWD.php" href="currency/KWD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KYD.php" href="currency/KYD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="KZT.php" href="currency/KZT.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LAK.php" href="currency/LAK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LBP.php" href="currency/LBP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LKR.php" href="currency/LKR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LRD.php" href="currency/LRD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LSL.php" href="currency/LSL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LTL.php" href="currency/LTL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LVL.php" href="currency/LVL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="LYD.php" href="currency/LYD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MAD.php" href="currency/MAD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MDL.php" href="currency/MDL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MGA.php" href="currency/MGA.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MKD.php" href="currency/MKD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MMK.php" href="currency/MMK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MNT.php" href="currency/MNT.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MOP.php" href="currency/MOP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MRO.php" href="currency/MRO.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MUR.php" href="currency/MUR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MVR.php" href="currency/MVR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MWK.php" href="currency/MWK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MXN.php" href="currency/MXN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MXV.php" href="currency/MXV.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MYR.php" href="currency/MYR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="MZN.php" href="currency/MZN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="NAD.php" href="currency/NAD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="NGN.php" href="currency/NGN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="NIO.php" href="currency/NIO.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="NOK.php" href="currency/NOK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="NPR.php" href="currency/NPR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="NZD.php" href="currency/NZD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="OMR.php" href="currency/OMR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="PAB.php" href="currency/PAB.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="PEN.php" href="currency/PEN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="PGK.php" href="currency/PGK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="PHP.php" href="currency/PHP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="PKR.php" href="currency/PKR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="PLN.php" href="currency/PLN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="PYG.php" href="currency/PYG.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="QAR.php" href="currency/QAR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="RON.php" href="currency/RON.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="RSD.php" href="currency/RSD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="RUB.php" href="currency/RUB.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="RWF.php" href="currency/RWF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SAR.php" href="currency/SAR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SBD.php" href="currency/SBD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SCR.php" href="currency/SCR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SDG.php" href="currency/SDG.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SEK.php" href="currency/SEK.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SGD.php" href="currency/SGD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SHP.php" href="currency/SHP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SLL.php" href="currency/SLL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SOS.php" href="currency/SOS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SRD.php" href="currency/SRD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SSP.php" href="currency/SSP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="STD.php" href="currency/STD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SVC.php" href="currency/SVC.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SYP.php" href="currency/SYP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="SZL.php" href="currency/SZL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="THB.php" href="currency/THB.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="TJS.php" href="currency/TJS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="TMT.php" href="currency/TMT.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="TND.php" href="currency/TND.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="TOP.php" href="currency/TOP.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="TTD.php" href="currency/TTD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="TWD.php" href="currency/TWD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="TZS.php" href="currency/TZS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="UAH.php" href="currency/UAH.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="UGX.php" href="currency/UGX.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="USD.php" href="currency/USD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="USN.php" href="currency/USN.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="USS.php" href="currency/USS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="UYI.php" href="currency/UYI.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="UYU.php" href="currency/UYU.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="UZS.php" href="currency/UZS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="VEF.php" href="currency/VEF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="VND.php" href="currency/VND.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="VUV.php" href="currency/VUV.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="WST.php" href="currency/WST.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XAF.php" href="currency/XAF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XAG.php" href="currency/XAG.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XAU.php" href="currency/XAU.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XBA.php" href="currency/XBA.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XBB.php" href="currency/XBB.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XBC.php" href="currency/XBC.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XBD.php" href="currency/XBD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XCD.php" href="currency/XCD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XDR.php" href="currency/XDR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XFU.php" href="currency/XFU.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XOF.php" href="currency/XOF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XPD.php" href="currency/XPD.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XPF.php" href="currency/XPF.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XPT.php" href="currency/XPT.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XSU.php" href="currency/XSU.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XTS.php" href="currency/XTS.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XUA.php" href="currency/XUA.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="XXX.php" href="currency/XXX.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="YER.php" href="currency/YER.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ZAR.php" href="currency/ZAR.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ZMW.php" href="currency/ZMW.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ZWL.php" href="currency/ZWL.php.xml">
+          <totals>
+            <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="AED.php" href="currency/AED.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="AFN.php" href="currency/AFN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ALL.php" href="currency/ALL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="AMD.php" href="currency/AMD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ANG.php" href="currency/ANG.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="AOA.php" href="currency/AOA.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ARS.php" href="currency/ARS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="AUD.php" href="currency/AUD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="AWG.php" href="currency/AWG.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="AZN.php" href="currency/AZN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BAM.php" href="currency/BAM.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BBD.php" href="currency/BBD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BDT.php" href="currency/BDT.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BGN.php" href="currency/BGN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BHD.php" href="currency/BHD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BIF.php" href="currency/BIF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BMD.php" href="currency/BMD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BND.php" href="currency/BND.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BOB.php" href="currency/BOB.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BOV.php" href="currency/BOV.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BRL.php" href="currency/BRL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BSD.php" href="currency/BSD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BTN.php" href="currency/BTN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BWP.php" href="currency/BWP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BYR.php" href="currency/BYR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="BZD.php" href="currency/BZD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CAD.php" href="currency/CAD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CDF.php" href="currency/CDF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CHE.php" href="currency/CHE.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CHF.php" href="currency/CHF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CHW.php" href="currency/CHW.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CLF.php" href="currency/CLF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CLP.php" href="currency/CLP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CNY.php" href="currency/CNY.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="COP.php" href="currency/COP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="COU.php" href="currency/COU.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CRC.php" href="currency/CRC.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CUC.php" href="currency/CUC.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CUP.php" href="currency/CUP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CVE.php" href="currency/CVE.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="CZK.php" href="currency/CZK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="DJF.php" href="currency/DJF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="DKK.php" href="currency/DKK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="DOP.php" href="currency/DOP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="DZD.php" href="currency/DZD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="EGP.php" href="currency/EGP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ERN.php" href="currency/ERN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ETB.php" href="currency/ETB.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="EUR.php" href="currency/EUR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="FJD.php" href="currency/FJD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="FKP.php" href="currency/FKP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GBP.php" href="currency/GBP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GEL.php" href="currency/GEL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GHS.php" href="currency/GHS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GIP.php" href="currency/GIP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GMD.php" href="currency/GMD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GNF.php" href="currency/GNF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GTQ.php" href="currency/GTQ.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="GYD.php" href="currency/GYD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="HKD.php" href="currency/HKD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="HNL.php" href="currency/HNL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="HRK.php" href="currency/HRK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="HTG.php" href="currency/HTG.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="HUF.php" href="currency/HUF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="IDR.php" href="currency/IDR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ILS.php" href="currency/ILS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="INR.php" href="currency/INR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="IQD.php" href="currency/IQD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="IRR.php" href="currency/IRR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ISK.php" href="currency/ISK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="JMD.php" href="currency/JMD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="JOD.php" href="currency/JOD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="JPY.php" href="currency/JPY.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KES.php" href="currency/KES.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KGS.php" href="currency/KGS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KHR.php" href="currency/KHR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KMF.php" href="currency/KMF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KPW.php" href="currency/KPW.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KRW.php" href="currency/KRW.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KWD.php" href="currency/KWD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KYD.php" href="currency/KYD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="KZT.php" href="currency/KZT.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LAK.php" href="currency/LAK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LBP.php" href="currency/LBP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LKR.php" href="currency/LKR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LRD.php" href="currency/LRD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LSL.php" href="currency/LSL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LTL.php" href="currency/LTL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LVL.php" href="currency/LVL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="LYD.php" href="currency/LYD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MAD.php" href="currency/MAD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MDL.php" href="currency/MDL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MGA.php" href="currency/MGA.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MKD.php" href="currency/MKD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MMK.php" href="currency/MMK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MNT.php" href="currency/MNT.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MOP.php" href="currency/MOP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MRO.php" href="currency/MRO.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MUR.php" href="currency/MUR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MVR.php" href="currency/MVR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MWK.php" href="currency/MWK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MXN.php" href="currency/MXN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MXV.php" href="currency/MXV.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MYR.php" href="currency/MYR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="MZN.php" href="currency/MZN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="NAD.php" href="currency/NAD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="NGN.php" href="currency/NGN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="NIO.php" href="currency/NIO.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="NOK.php" href="currency/NOK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="NPR.php" href="currency/NPR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="NZD.php" href="currency/NZD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="OMR.php" href="currency/OMR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="PAB.php" href="currency/PAB.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="PEN.php" href="currency/PEN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="PGK.php" href="currency/PGK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="PHP.php" href="currency/PHP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="PKR.php" href="currency/PKR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="PLN.php" href="currency/PLN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="PYG.php" href="currency/PYG.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="QAR.php" href="currency/QAR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="RON.php" href="currency/RON.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="RSD.php" href="currency/RSD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="RUB.php" href="currency/RUB.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="RWF.php" href="currency/RWF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SAR.php" href="currency/SAR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SBD.php" href="currency/SBD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SCR.php" href="currency/SCR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SDG.php" href="currency/SDG.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SEK.php" href="currency/SEK.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SGD.php" href="currency/SGD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SHP.php" href="currency/SHP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SLL.php" href="currency/SLL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SOS.php" href="currency/SOS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SRD.php" href="currency/SRD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SSP.php" href="currency/SSP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="STD.php" href="currency/STD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SVC.php" href="currency/SVC.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SYP.php" href="currency/SYP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="SZL.php" href="currency/SZL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="THB.php" href="currency/THB.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="TJS.php" href="currency/TJS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="TMT.php" href="currency/TMT.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="TND.php" href="currency/TND.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="TOP.php" href="currency/TOP.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="TTD.php" href="currency/TTD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="TWD.php" href="currency/TWD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="TZS.php" href="currency/TZS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="UAH.php" href="currency/UAH.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="UGX.php" href="currency/UGX.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="USD.php" href="currency/USD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="USN.php" href="currency/USN.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="USS.php" href="currency/USS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="UYI.php" href="currency/UYI.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="UYU.php" href="currency/UYU.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="UZS.php" href="currency/UZS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="VEF.php" href="currency/VEF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="VND.php" href="currency/VND.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="VUV.php" href="currency/VUV.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="WST.php" href="currency/WST.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XAF.php" href="currency/XAF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XAG.php" href="currency/XAG.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XAU.php" href="currency/XAU.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XBA.php" href="currency/XBA.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XBB.php" href="currency/XBB.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XBC.php" href="currency/XBC.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XBD.php" href="currency/XBD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XCD.php" href="currency/XCD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XDR.php" href="currency/XDR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XFU.php" href="currency/XFU.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XOF.php" href="currency/XOF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XPD.php" href="currency/XPD.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XPF.php" href="currency/XPF.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XPT.php" href="currency/XPT.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XSU.php" href="currency/XSU.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XTS.php" href="currency/XTS.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XUA.php" href="currency/XUA.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="XXX.php" href="currency/XXX.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="YER.php" href="currency/YER.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ZAR.php" href="currency/ZAR.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ZMW.php" href="currency/ZMW.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ZWL.php" href="currency/ZWL.php.xml">
+        <totals>
+          <lines total="27" comments="16" code="11" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <directory name="exceptions">
+        <totals>
+          <lines total="71" comments="50" code="21" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="3" tested="3" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="CurrencyMismatchException.php" href="exceptions/CurrencyMismatchException.php.xml">
+          <totals>
+            <lines total="22" comments="15" code="7" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="InvalidArgumentException.php" href="exceptions/InvalidArgumentException.php.xml">
+          <totals>
+            <lines total="25" comments="18" code="7" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="OverflowException.php" href="exceptions/OverflowException.php.xml">
+          <totals>
+            <lines total="24" comments="17" code="7" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="CurrencyMismatchException.php" href="exceptions/CurrencyMismatchException.php.xml">
+        <totals>
+          <lines total="22" comments="15" code="7" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="InvalidArgumentException.php" href="exceptions/InvalidArgumentException.php.xml">
+        <totals>
+          <lines total="25" comments="18" code="7" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="OverflowException.php" href="exceptions/OverflowException.php.xml">
+        <totals>
+          <lines total="24" comments="17" code="7" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <directory name="interfaces">
+        <totals>
+          <lines total="55" comments="40" code="15" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="0" tested="0" percent=""/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="Exception.php" href="interfaces/Exception.php.xml">
+          <totals>
+            <lines total="24" comments="17" code="7" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="0" tested="0" percent=""/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="Formatter.php" href="interfaces/Formatter.php.xml">
+          <totals>
+            <lines total="31" comments="23" code="8" executable="0" executed="0" percent=""/>
+            <methods count="0" tested="0" percent=""/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="0" tested="0" percent=""/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="Exception.php" href="interfaces/Exception.php.xml">
+        <totals>
+          <lines total="24" comments="17" code="7" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="0" tested="0" percent=""/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="Formatter.php" href="interfaces/Formatter.php.xml">
+        <totals>
+          <lines total="31" comments="23" code="8" executable="0" executed="0" percent=""/>
+          <methods count="0" tested="0" percent=""/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="0" tested="0" percent=""/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>
