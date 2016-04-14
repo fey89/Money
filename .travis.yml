@@ -6,4 +6,4 @@ php:
 script: phpunit tests/MoneyTest.php
 
 before_install:
-	composer install
+	- composer install
